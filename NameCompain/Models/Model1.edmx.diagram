@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="928963319a84467a917619a502dfe32e" Name="Diagram1">
+        <EntityTypeShape EntityType="user23Model.App" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Appointment" Width="1.5" PointX="7.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Client" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Courses" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Employees" Width="1.5" PointX="7.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.FIO" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Group_visit" Width="1.5" PointX="9.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Info" Width="1.5" PointX="9.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Levels" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Online_coach" Width="1.5" PointX="9.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Personal_visit" Width="1.5" PointX="7.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Program" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.sysdiagrams" Width="1.5" PointX="9.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Themes" Width="1.5" PointX="7.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user23Model.Topics" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="user23Model.FK_App_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_App_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Client_Levels" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Courses_Levels" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Courses_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Topics_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Themes_Topics" ManuallyRouted="false" />
+        <AssociationConnector Association="user23Model.FK_Group_visit_Info" />
+        <AssociationConnector Association="user23Model.FK_Personal_visit_Info" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
